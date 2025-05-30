@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+	background-repeat: none;
+}
+
+h1 {
+	font-family:'Amatic SC', sans-serif;
+	font-size: 60px;
+	margin-left: 10px;
+	color: white;
+}
+
+h2 {
+	font-family:'Amatic SC', sans-serif;
+	font-size: 40px;
+	margin-left: 10px;
+	color: pink;
+}
+
+button {
+  margin-left: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 9px;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #FF3333;
+	border: 2px solid #FFFFFF;
+	height: 60px;
+	width: 200px;
+}
+
+button:hover{
+	opacity: .75;
+}
+
+a{
+	color: #000;
+}
+
+#premise{
+	position: relative;
+	left: 10px;
+	font-family: 'Amatic SC', monospace;
+	font-size: 40px;
+	color: white;
+}
+
+#license{
+	position: absolute;
+	bottom: 12px;
+	left: 25px;
+	font-family: fantasy;
+  color: white;
+	font-size: 8px;
+}
